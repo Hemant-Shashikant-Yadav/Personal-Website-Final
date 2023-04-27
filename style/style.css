@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #fef8d9d8;
+}
+
+/* Top section */
+h1 {
+  font-family: "Dancing Script", cursive;
+  display: inline;
+  font-size: 130px;
+  font-weight: 900;
+  font-style: italic;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+}
+
+.Top {
+  position: relative;
+  background-color: #fbebb4dc;
+  height: 100vh;
+}
+
+.cloud-top {
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  width: 200px;
+  transform: translate(-15%, -20%);
+}
+
+.Subtitle {
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+  position: absolute;
+  top: 50%;
+  left: 68%;
+  transform: translate(-68%, -50%);
+  margin-top: 1.5vw;
+}
+
+.cloud-bottom {
+  position: absolute;
+  left: 20%;
+  top: 59%;
+  width: 200px;
+  transform: translate(-20%, -59%);
+}
+
+.mountain {
+  position: absolute;
+  /* top: 50%; */
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 570px;
+  opacity: 75%;
+}
+h1,
+.Subtitle {
+  color: #806d00;
+}
+
+/* mid section */
+.profile-pic {
+  width: 25vw;
+}
+.computer {
+  width: 14vw;
+  float: left;
+  margin-right: 5%;
+}
+.computer2 {
+  width: 14vw;
+  float: left;
+  margin-right: 5%;
+}
+.chili {
+  width: 14vw;
+  float: right;
+  margin-right: 5%;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+.skill-row {
+  text-align: left;
+  margin: 5% auto 6% auto;
+  width: 55%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 0.5%;
+}
+
+h3,
+a {
+  color: #8e7900;
+}
+
+h2 {
+  font-family: "Texturina", serif;
+  font-size: 3.5vw;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 2vw;
+  text-decoration: underline;
+}
+
+p,
+.skill3 {
+  font-family: "Asap Condensed", sans-serif;
+  font-size: 1.6vw;
+}
+.skill3 {
+  /* list-style: none; */
+  margin: 0 0 3% 0;
+}
+.left-padding {
+  margin-left: 40%;
+}
+
+/* bottom section */
+.btn {
+  font-size: 1.87vw;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.bottom-container {
+  font-size: 1.73vw;
+  font-family: "Playfair Display", serif;
+  background-color: #fbebb4dc;
+  padding-top: 5%;
+}
+
+.img-ref-link {
+  font-size: 1.2vw;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+hr {
+  text-align: center;
+  border-color: rgba(255, 0, 0, 0.562);
+  border-style: none;
+  border-bottom-style: dotted;
+  width: 8%;
+  border-width: 0.6rem thick;
+  padding-top: 2%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.copyright {
+  margin-bottom: 0;
+  font-size: 1.4vw;
+  padding-top: 2%;
+}
+.btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  background: #fef8d9d8;
+  padding: 0.42vw 1.67vw 0.42vw 1.67vw;
+  border: solid #4f4937dc 3px;
+  margin: 1%;
+  display: inline-block;
+}
+
+.btn:hover {
+  border: solid #000000dc 3px;
+}
+em{
+  font-size: 2.5vw;
+}
+
+@media screen and (max-width: 1160px) {
+  .Subtitle {
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 1120px) {
+  h1 {
+    font-size: 11vw;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  .Top {
+    height: 77vw;
+  }
+  .mountain {
+    width: 60vw;
+  }
+  h1 {
+    font-size: 11.65vw;
+  }
+  .Subtitle {
+    font-size: 3.7vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .cloud-top,
+  .cloud-bottom {
+    width: 21vw;
+  }
+  hr {
+    width: 10%;
+    border-width: 1vw thick;
+  }
+  p{
+    font-size: 2.6vw;
+  }
+  h3{
+    font-size: 3.5vw;
+  }
+  .chili,.computer,.computer2{
+    margin-top: 7vw;
+    width: 14vw   ;
+  }
+  td{
+    font-size: 2.4vw;
+  }
+  .footer_contact_me{
+    font-size: 2.9vw;
+  }
+}
